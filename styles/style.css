@@ -162,12 +162,8 @@ ol {
   line-height: 1;
 }
 
-.search-form__label-text:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.search-form__pseudo-checkbox:hover {
+.search-form__label:hover .search-form__label-text,
+.search-form__label:hover .search-form__pseudo-checkbox {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -296,7 +292,7 @@ ol {
   cursor: pointer;
 }
 
-.content__card-link:active {
+.content__card-link:active .content__video-card {
   background-color: #545050;
 }
 
@@ -304,8 +300,8 @@ ol {
   outline: none;
 }
 
-.content__card-link:focus-visible {
-  outline-offset: 1px;
+.content__card-link:focus-visible .content__video-card {
+  outline-offset: 2px;
   outline: 2px solid #fff;
 }
 
